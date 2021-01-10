@@ -5,8 +5,8 @@ const fetch = require('node-fetch');
 let app = express();
 
 let port = process.env.PORT || 8888;
-const client_id = 'e9c3676278ee431694c8c5bcb7eb6e63'; // Your client id
-const client_secret = '612a7dcaaed94639aa0599b0597bbf71'; // Your secret
+const client_id = ''; // Your client id
+const client_secret = ''; // Your secret
 const redirect_uri = `http://localhost:8888/callback`; // Your redirect uri
 
 app.get('/', (req, res) => {
